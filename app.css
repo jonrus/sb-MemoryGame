@@ -1,0 +1,45 @@
+#gameTitle {
+    text-align: center;
+}
+#gameArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 98%; */
+}
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    /* width: 98%; */
+}
+.gameCard {
+    flex-basis: 15vw;
+    border: 2px solid black;
+    height: 25vh;
+    margin: 2px;
+    /* transition: 100ms; */
+}
+#gameStatus {
+    text-align: center;
+    font-size: 5rem;
+}
+#currentScore {
+    /* margin-left: 3%; */
+    align-self: flex-start;
+    font-size: 3rem;
+    flex-grow: 1;
+}
+#gameControls {
+    text-align: center;
+    align-self: center;
+    flex-grow: 100;
+}
+#bestScore {
+    /* margin-right: 3%; */
+    font-size: 3rem;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+body {
+    background-color: dimgray;
+}
